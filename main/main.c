@@ -46,7 +46,7 @@ void init_pwm(void)
     pwm_1.gpio_num = GPIO_NUM_18;
     pwm_1.hpoint = 0;
     pwm_1.timer_sel = LEDC_TIMER_0;
-    pwm_1.speed_mode = LEDC_HIGH_SPEED_MODE;
+    pwm_1.speed_mode = LEDC_HIGH_SPEED_MODE; //cambios
 
     pwm_2.channel = LEDC_CHANNEL_1;
     pwm_2.duty = 1228.8;
